@@ -1,0 +1,16 @@
+.site_nav {
+  display: flex;
+
+  background-color: steelblue;
+
+  padding: 8px;
+  text-align: center;
+  color: white;
+}
+
+button .login {
+  font-size: 20px;
+
+  text-align: center;
+  justify-content: right;
+}

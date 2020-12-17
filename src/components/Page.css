@@ -1,0 +1,23 @@
+.page {
+  grid-row: 2;
+  background-color: lightgrey;
+  grid-column: 1 / -1;
+  padding: 8px;
+  text-align: center;
+  color: black;
+  height: 80vh;
+  position: relative;
+}
+
+.page .new-post-form {
+  width: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.page .all-posts {
+  height: 100%;
+  padding-right: 300px;
+  overflow-y: scroll;
+}

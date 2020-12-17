@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Parisienne|Roboto|Playfair+Display|Roboto+Condensed&display=swap");
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: blue;
+}
+
+#app {
+  height: 100%;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto 1fr;
+  grid-gap: 8px;
+
+  height: 100%;
+  width: 100%;
+
+  overflow: hidden;
+
+  background: #444;
+}

@@ -1,0 +1,8 @@
+.title {
+  grid-row: 1;
+  background-color: steelblue;
+  grid-column: 1 / -1;
+  padding: 8px;
+  text-align: center;
+  color: white;
+}
